@@ -1,5 +1,14 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-25 — Upstream inspection & structural sync
+- Inspected https://github.com/Bannon-github/Me-google (full theme system, ADRs 003-007, ThemeManager, QA validators, theme_pipeline, reflect engine).
+- Created branch `sync-upstream-2026-07-25` and forked key changes into our version:
+  - `.gitignore`
+  - `core/README.md`
+  - `platform/quest/README.md`
+- Updated this log + contributions.html showcase (remains exclusively on MattBannVan/Me-google).
+- Previous TASK-001 ADR work remains on `feat/TASK-001-adr-001-system-architecture` (PR #3).
+
 ## 2026-07-25 — TASK-001 ADR-001
 - Followed AGENTS.md workflow as **Architect** role.
 - Implemented critical TASK-001: defined overall system architecture in `docs/adr/ADR-001-system-architecture.md`.
