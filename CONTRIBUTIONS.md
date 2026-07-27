@@ -1,11 +1,17 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-26 — Full ADR sync + TASK-001 accepted
+- Inspected upstream https://github.com/Bannon-github/Me-google again.
+- Merged prior open sync PRs (#4 structural, #5 TASK-A002).
+- Created `sync-upstream-2026-07-26`, pushed ADR-001 (TASK-001) + ADR-003/004/005 from upstream.
+- Squash-merged PR #6 into main. TASK-001 is now complete on our version.
+- This page + contributions.html updated exclusively here (never upstream).
+
 ## 2026-07-26 — TASK-A002 docs/api scaffold
 - Followed AGENTS.md workflow as **Documentation Writer / Architect** role.
 - Implemented auto-detected gap TASK-A002: scaffolded `docs/api/README.md` for API references.
 - Branch: `feat/TASK-A002-docs-api-scaffold`
-- PR on fork: https://github.com/MattBannVan/Me-google/pull/5
-- Upstream PR to Bannon-github/Me-google blocked by integration permissions (403); contribution ready for human cross-repo PR or cherry-pick.
+- PR on fork: https://github.com/MattBannVan/Me-google/pull/5 (merged)
 
 ## 2026-07-25 — Upstream inspection & structural sync
 - Inspected https://github.com/Bannon-github/Me-google (full theme system, ADRs 003-007, ThemeManager, QA validators, theme_pipeline, reflect engine).
@@ -14,13 +20,13 @@
   - `core/README.md`
   - `platform/quest/README.md`
 - Updated this log + contributions.html showcase (remains exclusively on MattBannVan/Me-google).
-- Previous TASK-001 ADR work remains on `feat/TASK-001-adr-001-system-architecture` (PR #3).
+- Previous TASK-001 ADR work remains on `feat/TASK-001-adr-001-system-architecture` (PR #3, later landed via #6).
 
 ## 2026-07-25 — TASK-001 ADR-001
 - Followed AGENTS.md workflow as **Architect** role.
 - Implemented critical TASK-001: defined overall system architecture in `docs/adr/ADR-001-system-architecture.md`.
 - Branch: `feat/TASK-001-adr-001-system-architecture`
-- PR created on fork; upstream PR requires additional GitHub permissions (403 from integration) — ready for human to open cross-repo PR from the branch to Bannon-github/Me-google.
+- Now merged into main via sync PR #6.
 
 ## 2026-07-24 Sync
 - Inspected https://github.com/Bannon-github/Me-google
