@@ -1,5 +1,16 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-28 — Upstream 2026-07-27 reflection + rules/skills sync
+
+* Inspected https://github.com/Bannon-github/Me-google (latest commit f869493 — weekly reflect bot).
+* Created branch `sync-upstream-2026-07-27`.
+* Forked key new artefacts into our version:
+  - `reports/reflection-2026-07-27.md`
+  - `.github/rules/derived/2026-07-27-rules.json` + `registry.json`
+  - `.github/skills/derived/2026-07-27-skills.json` + `registry.json`
+* PR #8 squash-merged to main.
+* This page + contributions.html updated exclusively here (never upstream).
+
 ## 2026-07-27 — TASK-A008 services/ scaffold + upstream request
 
 * Followed AGENTS.md workflow as **Privacy/Networking Engineer** role.
