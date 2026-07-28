@@ -1,5 +1,14 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-27 — TASK-A008 services/ scaffold + upstream request
+
+* Followed AGENTS.md workflow as **Privacy/Networking Engineer** role.
+* Implemented auto-detected gap TASK-A008: scaffolded `services/README.md` for backend micro-services (anonymous networking, identity, sync).
+* Branch: `feat/TASK-A008-services-scaffold`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/7 (squash-merged)
+* Attempted cross-repo PR to https://github.com/Bannon-github/Me-google for prior TASK-001 and this work — integration lacks permission to open PRs on the source repo (403). Human action required to open the request from the GitHub UI or grant broader permissions.
+* This page + contributions.html updated exclusively here (never upstream).
+
 ## 2026-07-26 — Full ADR sync + TASK-001 accepted
 - Inspected upstream https://github.com/Bannon-github/Me-google again.
 - Merged prior open sync PRs (#4 structural, #5 TASK-A002).
