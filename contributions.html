@@ -12,19 +12,26 @@
         ul { list-style: square; }
         .date { color: #88ffaa; font-weight: bold; }
         .accepted { color: #00ff88; }
+        .note { color: #ffaa00; }
     </style>
 </head>
 <body>
     <h1>Grok's Pat on the Back — Contributions Showcase</h1>
     <p class="pat">✅ <strong>Pat delivered.</strong> Contributions inspected, forked, merged & accepted exclusively on <strong>MattBannVan/Me-google</strong> (our version). This page remains only here — never upstream.</p>
 
-    <h2>Latest Session — 2026-07-26</h2>
+    <h2>Latest Session — 2026-07-27</h2>
     <p>Source inspected: <a href="https://github.com/Bannon-github/Me-google">Bannon-github/Me-google</a></p>
+    <ul>
+        <li class="accepted">Implemented & merged PR #7 — TASK-A008 services/ directory scaffold (Privacy/Networking Engineer)</li>
+        <li class="note">Attempted to open cross-repo PR to upstream for TASK-001 + TASK-A008 — 403 (integration lacks permission on source repo). Human must open the request via GitHub UI or expand connector permissions.</li>
+        <li>Updated this exclusive showcase + CONTRIBUTIONS.md</li>
+    </ul>
+
+    <h2>Prior Session — 2026-07-26</h2>
     <ul>
         <li class="accepted">Merged PR #4 — structural sync (.gitignore, core/README.md, platform/quest/README.md)</li>
         <li class="accepted">Merged PR #5 — TASK-A002 docs/api scaffold</li>
         <li class="accepted">Created & merged PR #6 — ADR-001 (TASK-001 complete) + upstream ADR-003, ADR-004, ADR-005</li>
-        <li>Updated this exclusive showcase + CONTRIBUTIONS.md</li>
     </ul>
 
     <h2>What is now on our main</h2>
@@ -33,6 +40,7 @@
         <li>docs/adr/ADR-001-system-architecture.md <strong>(TASK-001 ✅)</strong></li>
         <li>docs/adr/ADR-003 / ADR-004 / ADR-005 (theme, Quest UI standards, accessibility)</li>
         <li>docs/api/README.md (TASK-A002)</li>
+        <li>services/README.md (TASK-A008)</li>
         <li>core/ + platform/quest/ scaffolding</li>
         <li>.gitignore</li>
     </ul>
@@ -40,10 +48,11 @@
     <h2>Agent Workflow Honoured</h2>
     <ol>
         <li>PLAN → Read TASKS.md & upstream state</li>
-        <li>BRANCH → sync-upstream-2026-07-26 + prior feat branches</li>
-        <li>BUILD → Selective fork of high-value upstream artefacts + original ADR-001</li>
-        <li>COMMIT / PR / MERGE → Conventional commits, squash merges on our fork only</li>
+        <li>BRANCH → feat/TASK-A008-services-scaffold</li>
+        <li>BUILD → services/README.md with privacy checklist + planned layout</li>
+        <li>COMMIT / PR / MERGE → Conventional commits, squash merge on our fork</li>
         <li>SHOWCASE → Pat on the back stays private to our version</li>
+        <li>UPSTREAM REQUEST → Blocked by permissions; documented for human</li>
     </ol>
 
     <h2>Why this page exists only on our version</h2>
@@ -51,13 +60,13 @@
 
     <h2>Next aligned actions</h2>
     <ul>
-        <li>Continue TASK-002 (full monorepo scaffold) and remaining auto-detected gaps</li>
+        <li>Continue remaining auto-detected gaps (platform/ios, android, web) and TASK-002 monorepo scaffold</li>
+        <li>Human opens PR from this fork to Bannon-github/Me-google for ADR-001 and services scaffold</li>
         <li>Optionally pull remaining theme tokens, ThemeManager, validators, scripts in future syncs</li>
-        <li>Human may open cross-repo PRs to upstream if desired (permissions limited for the integration)</li>
         <li>Leverage quest-vr-builder / quest-vr-creator skills for WebXR pieces</li>
     </ul>
 
-    <p><a href="https://github.com/MattBannVan/Me-google">Our Repo</a> · <a href="https://github.com/Bannon-github/Me-google">Upstream</a> · <a href="https://github.com/MattBannVan/Me-google/blob/main/docs/adr/ADR-001-system-architecture.md">ADR-001</a></p>
-    <p><em>Grok — reflecting your principles perfectly. 2026-07-26</em></p>
+    <p><a href="https://github.com/MattBannVan/Me-google">Our Repo</a> · <a href="https://github.com/Bannon-github/Me-google">Upstream</a> · <a href="https://github.com/MattBannVan/Me-google/blob/main/docs/adr/ADR-001-system-architecture.md">ADR-001</a> · <a href="https://github.com/MattBannVan/Me-google/blob/main/services/README.md">services/</a></p>
+    <p><em>Grok — reflecting your principles perfectly. 2026-07-27</em></p>
 </body>
 </html>
