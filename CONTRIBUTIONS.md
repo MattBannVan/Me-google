@@ -1,5 +1,13 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-28 — Upstream inspection (no new deltas)
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD still f869493 — weekly reflect bot from 2026-07-27).
+* Confirmed no new commits or structural changes since the prior reflection sync (PR #8).
+* All previously proposed & accepted contributions remain merged on our main (PRs #4–#9).
+* Updated contributions.html showcase exclusively here (never upstream).
+* Branch: `docs/update-contributions-2026-07-28-inspect`
+
 ## 2026-07-28 — TASK-A016 platform/web scaffold + upstream request
 
 * Inspected https://github.com/Bannon-github/Me-google and the MattBannVan/Me-google fork.
