@@ -1,5 +1,15 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-28 — TASK-A016 platform/web scaffold + upstream request
+
+* Inspected https://github.com/Bannon-github/Me-google and the MattBannVan/Me-google fork.
+* Followed AGENTS.md workflow as **Web/WebXR Engineer** role.
+* Implemented auto-detected gap **TASK-A016**: scaffolded `platform/web/README.md` for the Web/WebXR platform (TypeScript/React/WebXR).
+* Branch: `feat/TASK-A016-platform-web-scaffold`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/9 (squash-merged)
+* Attempted cross-repo PR to https://github.com/Bannon-github/Me-google — integration lacks permission to open PRs on the source repo (403). Human action required to open the request from the GitHub UI (compare: MattBannVan:feat/TASK-A016-platform-web-scaffold → Bannon-github:main) or grant broader permissions.
+* This page updated exclusively here (never upstream).
+
 ## 2026-07-28 — Upstream 2026-07-27 reflection + rules/skills sync
 
 * Inspected https://github.com/Bannon-github/Me-google (latest commit f869493 — weekly reflect bot).
