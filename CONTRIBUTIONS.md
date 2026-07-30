@@ -1,5 +1,16 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-29 — Upstream inspection + ADR-006/007 sync
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD still f869493 — weekly reflect bot from 2026-07-27; no new commits).
+* Confirmed no new structural commits since prior reflection sync (PR #8 / #10).
+* Forked the two remaining theme-system ADRs into our version:
+  - `docs/adr/ADR-006-theme-qa-framework.md`
+  - `docs/adr/ADR-007-iterative-theme-pipeline.md`
+* PR #11 squash-merged to main.
+* Updated contributions.html showcase exclusively here (never upstream).
+* Branch: `sync-upstream-2026-07-29` → merged; showcase via `docs/update-contributions-2026-07-29`
+
 ## 2026-07-28 — Upstream inspection (no new deltas)
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD still f869493 — weekly reflect bot from 2026-07-27).
