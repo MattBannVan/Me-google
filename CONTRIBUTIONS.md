@@ -1,5 +1,17 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-30 — TASK-020 CONTRIBUTING.md + upstream request
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD advanced substantially: core models + tests, Chromabound game, Quest Orb Collector, reflection 2026-07-30, TASKS critical path largely complete).
+* Followed AGENTS.md workflow as **Documentation Writer** role.
+* Implemented open task **TASK-020**: added `CONTRIBUTING.md` (code style guide, Conventional Commits, PR process, privacy checklist, task system usage).
+* Branch: `feat/TASK-020-contributing-md`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/13 (squash-merged)
+* Attempted cross-repo PR to https://github.com/Bannon-github/Me-google — integration lacks permission to open PRs on the source repo (403). Human action required to open from the GitHub UI:
+  **compare** `MattBannVan:feat/TASK-020-contributing-md` → `Bannon-github:main`
+  or grant broader permissions to the connected GitHub integration.
+* This page updated exclusively here (never upstream).
+
 ## 2026-07-29 — Upstream inspection + ADR-006/007 sync
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD still f869493 — weekly reflect bot from 2026-07-27; no new commits).
