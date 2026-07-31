@@ -1,5 +1,21 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-30 — Major upstream sync (ADR-002, reflection, platforms)
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — Chromabound Zelda-like game, Meta Quest 3 Orb Collector, core models + tests, ADR-002, reflection 2026-07-30, platform scaffolds complete).
+* Created branch `sync-upstream-2026-07-30`.
+* Forked key deltas into our version:
+  - `docs/adr/ADR-002-anonymous-networking.md` (TASK-007)
+  - `reports/reflection-2026-07-30.md`
+  - `.github/rules/derived/2026-07-30-rules.json` (5 rules)
+  - `.github/skills/derived/2026-07-30-skills.json` (6 skills)
+  - `platform/ios/README.md` + `platform/android/README.md`
+  - `GAME.md` (Chromabound player manual)
+  - `.task-state.json` (critical path markers)
+* PR #15 squash-merged to main.
+* Selective sync: full Chromabound binaries and Quest Orb Collector tree left upstream for now; architecture, privacy, and agent self-improvement artefacts prioritised.
+* This page + contributions.html updated exclusively here (never upstream).
+
 ## 2026-07-30 — TASK-020 CONTRIBUTING.md + upstream request
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD advanced substantially: core models + tests, Chromabound game, Quest Orb Collector, reflection 2026-07-30, TASKS critical path largely complete).
