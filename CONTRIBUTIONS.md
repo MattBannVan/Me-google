@@ -1,5 +1,17 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-31 — TASK-019 expand README + upstream request
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — core models + tests, Chromabound, Quest Orb Collector, ADRs, reflection 2026-07-30; TASK-019 still open).
+* Followed AGENTS.md workflow as **Documentation Writer** role.
+* Implemented open task **TASK-019**: expanded `README.md` with vision, repo layout, getting-started instructions (prerequisites, clone, task system, core, contributing), high-level roadmap table, Quest/WebXR demos, and privacy reminder.
+* Branch: `feat/TASK-019-expand-readme`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/17
+* Attempted cross-repo PR to https://github.com/Bannon-github/Me-google — integration lacks permission to open PRs on the source repo (403). Human action required to open from the GitHub UI:
+  **compare** `MattBannVan:feat/TASK-019-expand-readme` → `Bannon-github:main`
+  or grant broader permissions to the connected GitHub integration.
+* This page updated exclusively here (never upstream).
+
 ## 2026-07-30 — Major upstream sync (ADR-002, reflection, platforms)
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — Chromabound Zelda-like game, Meta Quest 3 Orb Collector, core models + tests, ADR-002, reflection 2026-07-30, platform scaffolds complete).
