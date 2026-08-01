@@ -1,5 +1,18 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-07-31 — TASK-004 core data models sync
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — core models + tests, Chromabound, Quest Orb Collector, ADRs, reflection 2026-07-30).
+* Followed AGENTS.md workflow as **Core Logic Engineer** role.
+* Forked critical TASK-004 artefacts into our version:
+  - `core/models/session.ts` + `session.test.ts`
+  - `core/models/user.ts` + `user.test.ts`
+  - `core/models/spatial_item.ts` + `spatial_item.test.ts`
+  - `core/README.md` + `core/tsconfig.json`
+* Branch: `sync-upstream-2026-07-31-core-models`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/18 (squash-merged)
+* This page + contributions.html updated exclusively here (never upstream).
+
 ## 2026-07-31 — TASK-019 expand README + upstream request
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — core models + tests, Chromabound, Quest Orb Collector, ADRs, reflection 2026-07-30; TASK-019 still open).
