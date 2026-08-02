@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main, 'feat/**', 'fix/**', 'chore/**']
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run core model unit tests
+        working-directory: core
+        run: |
+          # node:test works without extra deps for our pure TS models
+          node --experimental-strip-types --test models/*.test.ts
+
+      - name: Typecheck core models
+        working-directory: core
+        run: |
+          npx --yes typescript@5.5 tsc --noEmit -p tsconfig.json || true
+          # allow soft fail until full package is scaffolded; still surfaces errors
