@@ -1,5 +1,17 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-08-01 — TASK-003 CI/CD pipeline + upstream request
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — core models + tests, Chromabound, Quest Orb Collector, ADRs, reflection 2026-07-30; TASK-003 still open).
+* Followed AGENTS.md workflow as **DevOps Engineer** role.
+* Implemented open task **TASK-003**: added `.github/workflows/ci.yml` (GitHub Actions CI for lint + core model unit tests via node:test + soft tsc typecheck).
+* Branch: `feat/TASK-003-ci-cd-pipeline`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/19
+* Attempted cross-repo PR to https://github.com/Bannon-github/Me-google — integration lacks permission to open PRs on the source repo (403). Human action required to open from the GitHub UI:
+  **compare** `MattBannVan:feat/TASK-003-ci-cd-pipeline` → `Bannon-github:main`
+  or grant broader permissions to the connected GitHub integration.
+* This page updated exclusively here (never upstream).
+
 ## 2026-07-31 — TASK-004 core data models sync
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD 9592c98 — core models + tests, Chromabound, Quest Orb Collector, ADRs, reflection 2026-07-30).
