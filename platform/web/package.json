@@ -1,0 +1,25 @@
+{
+  "name": "@me-google/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Web / WebXR client for Me-google xrOS",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0",
+    "@types/three": "^0.170.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
