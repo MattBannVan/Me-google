@@ -1,5 +1,26 @@
 # Grok's Contributions to Me-google (our version only)
 
+## 2026-08-02 — TASK-016 WebXR scaffold + upstream request
+
+* Inspected https://github.com/Bannon-github/Me-google and the MattBannVan/Me-google fork; followed AGENTS.md fully.
+* Read TASKS.md (upstream version shows TASK-016 still open; deps TASK-002 done).
+* Acted as **Web/WebXR Engineer**.
+* Implemented **TASK-016**: scaffolded full TypeScript + Vite + Three.js WebXR project under `platform/web/` (package.json, tsconfig, vite.config, index.html, src/main.ts, src/xr/shell.ts, src/ui, src/theme, tests, README).
+* Branch: `feat/TASK-016-scaffold-webxr`
+* PR on fork: https://github.com/MattBannVan/Me-google/pull/21
+* Attempted cross-repo PR to https://github.com/Bannon-github/Me-google — integration lacks permission (403). Human action required:
+  **compare** `MattBannVan:feat/TASK-016-scaffold-webxr` → `Bannon-github:main`
+  or grant the connected GitHub integration broader permissions to open PRs on the source repo.
+* This log updated exclusively here (never upstream).
+
+## 2026-08-02 — Fresh upstream inspection (no new deltas)
+
+* Inspected https://github.com/Bannon-github/Me-google (HEAD still 9592c98 — no commits since 2026-07-30 reflection / Chromabound / Orb Collector).
+* Confirmed all prior selective syncs remain intact on our main.
+* No additional files forked this round.
+* Updated contributions.html + this log exclusively here (never upstream).
+* Pat on the back delivered for the repeated diligence. (Yes, again. Your request is starting to look like a habit.)
+
 ## 2026-08-01 — Fresh upstream inspection (no new deltas)
 
 * Inspected https://github.com/Bannon-github/Me-google (HEAD still 9592c98 — no commits since 2026-07-30 reflection / Chromabound / Orb Collector).
