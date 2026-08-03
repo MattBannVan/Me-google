@@ -1,55 +1,48 @@
 # Web / WebXR Platform
 
-TypeScript, React, and WebXR implementation for Me-google xrOS.
+TypeScript + Vite + Three.js scaffold for Me-google xrOS (TASK-016).
 
 ## Purpose
 
-This directory holds the **Web / WebXR client** that runs in browsers and Meta Quest Browser (and other WebXR-capable runtimes).
-
-Shared core logic lives in `core/`; this platform layer provides:
+Browser and Meta Quest Browser client. Shared domain models live in `../../core/`. This layer owns:
 
 - WebXR Device API session management
-- Spatial UI shell (Three.js / Babylon.js or equivalent)
-- Theme system integration (via Quest theme tokens where applicable)
-- Local encrypted favourites storage bridge
-- Anonymous real-time sync client (when services/ layer is available)
-
-## Guiding Principles (from project)
-
-1. **Privacy-first** — no user data leaves the device without explicit consent.
-2. **Spatial-first UI** — all UI designed for 3D space, not flat 2D adaptations.
-3. **Modular** — features are self-contained modules.
+- Spatial UI shell (Three.js scene — expanded in TASK-017)
+- Theme token bridge
+- Future local encrypted storage and anonymous sync clients
 
 ## Status
 
-Scaffolded as part of **TASK-A016** (auto-detected gap).
+**TASK-016 scaffold complete.** Next:
 
-Next related tasks:
-- TASK-016 — Scaffold TypeScript/React WebXR project (package.json, Vite, etc.)
-- TASK-017 — Implement spatial UI shell using WebXR Device API + Three.js / Babylon.js
-- TASK-018 — Integrate core data layer into web app
+- TASK-017 — Implement spatial UI shell (controllers, anchors, Three.js scene)
+- TASK-018 — Integrate `core/` data models
 
-## Planned Layout
+## Layout
 
 ```
 platform/web/
-├── README.md          # this file
+├── index.html
 ├── package.json
 ├── tsconfig.json
+├── vite.config.ts
 ├── src/
 │   ├── main.ts
-│   ├── xr/
-│   ├── ui/
-│   └── theme/
+│   ├── xr/shell.ts
+│   ├── ui/placeholder.ts
+│   └── theme/tokens.ts
 └── tests/
+    └── shell.test.ts
 ```
 
-## Running (once scaffolded further)
+## Running
 
 ```bash
 cd platform/web
 npm install
-npm run dev
+npm run dev          # Vite dev server
+npm run typecheck
+npm test
 ```
 
-Role: Web/WebXR Engineer
+Privacy: no network calls in this scaffold; no PII. Role: Web/WebXR Engineer.
