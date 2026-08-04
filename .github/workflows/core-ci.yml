@@ -1,0 +1,41 @@
+name: core-ci
+
+# Lint and test the shared core data models on every change under core/.
+# Addresses TASK-003 (CI/CD pipeline for lint + test).
+
+on:
+  push:
+    paths:
+      - 'core/**'
+      - '.github/workflows/core-ci.yml'
+  pull_request:
+    paths:
+      - 'core/**'
+      - '.github/workflows/core-ci.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  core-models:
+    name: Core models type-check + unit tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: core
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Type-check models
+        run: |
+          # tsconfig already has noEmit + strict settings
+          npx --yes typescript@5.5 tsc --noEmit -p tsconfig.json
+
+      - name: Run unit tests (node:test)
+        run: |
+          # Tests use node:test / node:assert and import .ts sources
+          node --experimental-strip-types --test models/*.test.ts
